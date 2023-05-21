@@ -1,0 +1,107 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Baloo+Bhaina+2&family=Poppins:wght@200;300;400;500;600;700&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-image: url('gym_man.jpg');
+    color: white;
+    font-family: 'Baloo Bhaina 2', cursive;
+
+}
+.left {
+    display: inline-block;
+    position: absolute;
+    top: 20px;
+    left: 35px;
+    
+}
+.center {
+    display: block;
+    width: 45%;
+    margin: 20px auto;
+    
+}
+.right {
+    display: inline-block;
+    position: absolute;
+    top: 20px;
+    right: 35px;
+    
+}
+.center li {
+    display: inline-block;
+    list-style-type: none;
+    padding: 5px 14px;
+}
+.center li a {
+    padding: 30px 20px;
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+.center li a:hover,.center li a.active  {
+    text-decoration: underline;
+    color: gray;
+}
+.center li a.active {
+    color: rgb(177, 148, 148);
+
+}
+.left img {
+    width: 130px;
+    filter: invert(100%);
+}
+.left div {
+    text-align: center;
+    line-height: 19px;
+    font-size: 26px;
+}
+.btn {
+    margin: 0 9px;
+    background-color: burlywood;
+    color: white;
+    border: 2px solid transparent;
+    border-radius: 10px;
+    padding: 4px 14px;
+    font-size: 20px;
+    cursor: pointer;
+    font-family: 'Baloo Bhaina 2', cursive;
+
+}
+.btn:hover {
+    background-color: gray;
+    outline: none;
+}
+.form-container {
+    border: 2px solid white;
+    border-radius: 20px;
+    width: 30%;
+    margin: 120px 80px;
+    padding: 40px;
+}
+.form-container h1 {
+    text-align: center;
+
+}
+.form-grp input {
+    font-size: 20px;
+    display: block;
+    width: 300px;
+    margin: 8px auto;
+    border: 2px solid transparent;
+    outline: none;
+    border-radius: 10px;
+    text-align: center;
+    padding: 2px;
+    font-family: 'Baloo Bhaina 2', cursive;
+
+}
+.form-container button {
+    display: block;
+    width: 300px;
+    margin: 20px auto;
+
+
+}
